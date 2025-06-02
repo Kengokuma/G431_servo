@@ -1,0 +1,10 @@
+{
+  "label": "flash stm32",
+  "type": "shell",
+  "command": "STM32_Programmer_CLI",
+  "args": [
+    "-c", "port=SWD",
+    "-d", "build/Debug/G431_servo.elf",
+    "-rst"
+  ]
+}
